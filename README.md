@@ -39,10 +39,14 @@ All API requests use the base URL defined in the `.env.*` file.
 
 ## ⚙️ Environment Variables
 
-Change base URL in `.env.production`
+Change base URL in `.env.development`/`.env.production`
 
 ```
-VITE_API_BASE_URL=http://localhost:8000
+VITE_API_BASE_URL=http://localhost:8000/api
+```
+or to hosted version
+```
+VITE_API_BASE_URL=https://mileapp-api.anzar.dev/api
 ```
 
 This ensures all API requests point to your Laravel backend.
